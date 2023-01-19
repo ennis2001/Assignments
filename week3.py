@@ -1,24 +1,38 @@
+puppyName = "Fido"
+print ("The name of the puppy is", [puppyName])
 
-// Task: Example (demonstrating how to complete a task)
-// Define the variable "puppyName" and instanciate it with the name Fido
-let puppyName = "Fido";
+#Task 1
 
-// Task 1
-// Fix the following code
-var puppyAge = 4
+puppyAge = 4
+print ("The Age of the Puppy is", [puppyAge])
 
-// Task 2
-// Define a variable "breed" of type String  
+#Task 2
+ 
+Breed = ""
 
-// Task 3
-// Set the value of breed to Labrador Retriever
+#Task 3
 
-// Task 4
-// Fix the following code
+Breed = "Labrador Retriever"
+print ("The breed of the puppy is", [Breed])
 
-fun concatinatePuppyInfo(name,age,breed {
-  retun `${name}, ${age}, ${breed}  
-}
+#Task 4
 
-// Task 5
-// Write a function convertDogToHumanAge that returns the human equivalent of dog years when we use the ratio 1:8 (i.e one dog year is eight human). Dog years should be given as a parameter to the function.
+def concatinatePuppyInfo():
+
+  (puppyName,puppyAge,Breed)
+  return (puppyName,puppyAge,Breed)
+
+  ()
+
+  concatinatePuppyInfo()
+
+
+#Task 5
+
+def convertDogtoHumanAge(): 
+  DogAge = 4
+  HumanAge = (DogAge) * 8
+  print ("The Human equivalent is", [HumanAge])
+
+  ()
+convertDogtoHumanAge()
